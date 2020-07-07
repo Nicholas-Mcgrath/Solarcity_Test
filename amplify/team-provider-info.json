@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-solarcitytest-dev-111001-authRole",
+            "UnauthRoleArn": "arn:aws:iam::755462251518:role/amplify-solarcitytest-dev-111001-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::755462251518:role/amplify-solarcitytest-dev-111001-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-solarcitytest-dev-111001-deployment",
+            "UnauthRoleName": "amplify-solarcitytest-dev-111001-unauthRole",
+            "StackName": "amplify-solarcitytest-dev-111001",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:755462251518:stack/amplify-solarcitytest-dev-111001/fd8d2010-c0a6-11ea-85bc-0223254a71be",
+            "AmplifyAppId": "d25n0xk6yx8pm8"
+        },
+        "categories": {
+            "auth": {
+                "solarcitytest63cba76b": {}
+            }
+        }
+    }
+}
