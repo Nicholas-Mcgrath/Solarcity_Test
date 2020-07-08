@@ -1,0 +1,15 @@
+type City @model {
+  id: ID!
+  name: String!
+  dates: [Date] @connection(keyName: "byCity", fields: ["id"])
+}
+
+type Date @model @key(name: "byCity", fields: ["CityID"]) {
+  id: ID!
+  date: String!
+  CityID: ID!
+  City: City @connection(fields: ["CityID"])
+  price: Float!
+}
+
+
